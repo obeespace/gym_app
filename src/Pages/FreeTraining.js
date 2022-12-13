@@ -128,7 +128,7 @@ const FreeTraining = () => {
             "id":16,
             "category":"back",
             "name":"cobra pose",
-            "illustration":"",
+            "illustration":"https://img.freepik.com/premium-photo/athletic-woman-doing-cobra-pose-practicing-bhujangasana-yoga-stretching-back-muscles_416530-737.jpg?w=2000",
             "reps":"3 sets of 2mins each"
         },
 
@@ -136,15 +136,15 @@ const FreeTraining = () => {
             "id":17,
             "category":"back",
             "name":"Superman",
-            "illustration":"",
+            "illustration":"https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/400x400_Try_the_Superman_Exercise_to_Stand_Tall_and_Proud_Superman_with_Elbows_Bent.gif?h=840",
             "reps":"3 reps with a 15-30 second static hold"
         },
 
         {
             "id":18,
             "category":"back",
-            "name":"Dolphin Kick",
-            "illustration":"",
+            "name":"The Aqua-man",
+            "illustration":"https://post.greatist.com/wp-content/uploads/sites/2/2020/08/GRT-Alternating-Superman.gif",
             "reps":"3 sets of 5 reps"
         },
 
@@ -152,23 +152,31 @@ const FreeTraining = () => {
             "id":19,
             "category":"back",
             "name":"Reverse Snow Angels",
-            "illustration":"",
-            "reps":"Repeat for 3 sets of 5 reps,"
+            "illustration":"https://thumbs.gfycat.com/TediousWarlikeBooby-max-1mb.gif",
+            "reps":"Repeat for 3 sets of 10 reps,"
         },
 
         {
             "id":20,
             "category":"back",
             "name":"Dolphin Kick",
-            "illustration":"",
-            "reps":"3 sets of 5 reps"
+            "illustration":"https://i1.wp.com/fitfashiongroom.com/wp-content/uploads/2020/04/dolphin-kicks.jpg",
+            "reps":"3 sets of 8 reps"
+        },
+
+        {
+            "id":40,
+            "category":"back",
+            "name":"Cat Stretch",
+            "illustration":"https://www.verywellfit.com/thmb/Jvwv8VPTLwd5gMATDAvuo8ief5M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Fitness_Gif-1500x1000-catcow-5c5c85cac9e77c0001566641.gif",
+            "reps":"3 sets of 8 reps"
         },
 
         {
             "id":21,
             "category":"abs",
             "name":"Crunch",
-            "illustration":"",
+            "illustration":"https://www.healthier.qld.gov.au/wp-content/uploads/2015/07/28_F_WIP02.gif",
             "reps":"3 sets of 10 – 20 reps"
         },
 
@@ -176,7 +184,7 @@ const FreeTraining = () => {
             "id":22,
             "category":"abs",
             "name":"Plank",
-            "illustration":"",
+            "illustration":"https://media.tenor.com/6SOetkNbfakAAAAM/plank-abs.gif",
             "reps":" 3 sets of 30 seconds"
         },
 
@@ -184,7 +192,7 @@ const FreeTraining = () => {
             "id":23,
             "category":"abs",
             "name":"Mountain climbers",
-            "illustration":"",
+            "illustration":"https://i0.wp.com/post.healthline.com/wp-content/uploads/2022/01/400x400_9_Best_Bodyweight_Shoulder_Exercises_for_Every_Body_Mountain_Climbers-1.gif?h=840",
             "reps":"20 on each leg, for 4 sets each."
         },
 
@@ -208,7 +216,7 @@ const FreeTraining = () => {
             "id":26,
             "category":"legs",
             "name":"jump squats",
-            "illustration":"",
+            "illustration":"https://thumbs.gfycat.com/VacantDearestAmazonparrot-max-1mb.gif",
             "reps":"3 sets of 10 reps"
         },
 
@@ -216,7 +224,7 @@ const FreeTraining = () => {
             "id":27,
             "category":"legs",
             "name":"Hip bridges",
-            "illustration":"",
+            "illustration":"https://thumbs.gfycat.com/SelfishFlakyCicada-max-1mb.gif",
             "reps":"3 sets of 12 reps"
         },
 
@@ -224,7 +232,7 @@ const FreeTraining = () => {
             "id":28,
             "category":"legs",
             "name":"jumping lunges",
-            "illustration":"",
+            "illustration":"https://media.tenor.com/meIUZZ_2oZMAAAAC/lunge-jump.gif",
             "reps":"3 sets of 10 reps"
         },
 
@@ -240,15 +248,15 @@ const FreeTraining = () => {
             "id":30,
             "category":"legs",
             "name":"step-ups",
-            "illustration":"",
-            "reps":"3 sets of 15 reps"
+            "illustration":"https://thumbs.gfycat.com/AmbitiousApprehensiveArcherfish-max-1mb.gif",
+            "reps":"3 sets of 15 reps on each leg"
         },
 
         {
             "id":31,
             "category":"rest",
             "name":"rest",
-            "illustration":"",
+            "illustration":"https://media.tenor.com/6r4bMetSZiYAAAAM/rest-is-best-chill-out.gif",
             "reps":"Enough to rejuvenate your body"
         },
 
@@ -256,11 +264,13 @@ const FreeTraining = () => {
             "id":32,
             "category":"walk",
             "name":"Take a long walk",
-            "illustration":"",
+            "illustration":"https://media.tenor.com/eJ30hg80NkUAAAAM/walk-walking.gif",
             "reps":"This helps your mood and you also enjoy nature"
         }
   ]
 
+
+  
   const currentDate = new Date()
   const dayOfWeek = currentDate.getDay()
 
