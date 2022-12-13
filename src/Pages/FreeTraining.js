@@ -88,14 +88,15 @@ const FreeTraining = () => {
             "id":11,
             "category":"shoulder",
             "name":"Plank shoulder taps",
-            "illustration":""
+            "illustration":"https://i.pinimg.com/originals/4c/ec/ba/4cecbae281aa636c64f461850bcc3041.gif",
+            "reps": "3 sets of 15 reps on each side"
         },
 
         {
             "id":12,
             "category":"shoulder",
             "name":"Crab walk",
-            "illustration":"",
+            "illustration":"https://thumbs.gfycat.com/EnchantingDefiniteBluetickcoonhound-max-1mb.gif",
             "reps":"2–3 sets of 15–20 steps"
         },
 
@@ -103,7 +104,7 @@ const FreeTraining = () => {
             "id":13,
             "category":"shoulder",
             "name":"Push-back push-up",
-            "illustration":"",
+            "illustration":"https://post.greatist.com/wp-content/uploads/sites/2/2019/05/HIPSAG.gif",
             "reps":"3 sets of 12–15 reps"
         },
 
@@ -111,7 +112,7 @@ const FreeTraining = () => {
             "id":14,
             "category":"shoulder",
             "name":"Plank to Down Dog",
-            "illustration":"",
+            "illustration":"https://media.self.com/photos/57e297e6edd53cfa267df9cc/master/w_320%2Cc_limit/DOWNWARD_DOG_PLANK%2520(2).gif",
             "reps":"5 sets of 20 reps"
         },
 
@@ -119,7 +120,7 @@ const FreeTraining = () => {
             "id":15,
             "category":"shoulder",
             "name":"Side plank with lateral raise ",
-            "illustration":"",
+            "illustration":"https://i0.wp.com/post.greatist.com/wp-content/uploads/sites/2/2020/06/1.1.SidePlank.gif?w=1155&h=840",
             "reps":"3 sets of 10 reps"
         },
 
