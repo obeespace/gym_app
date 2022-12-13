@@ -270,9 +270,9 @@ const FreeTraining = () => {
   ]
 
 
-  
+
   const currentDate = new Date()
-  const dayOfWeek = currentDate.getDay()
+  const dayOfWeek = currentDate.getDay("2022-12-12")
 
   let selectedDisplay1
   let selectedDisplay2

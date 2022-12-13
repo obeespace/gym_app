@@ -15,6 +15,7 @@ const About = () => {
 
   const contact = () => {
     navigate("contact")
+    windows.scroll({top: top})
   }
 
   return (
