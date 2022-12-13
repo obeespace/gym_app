@@ -1,0 +1,232 @@
+{
+    "exercise" : [
+        {
+            "id":1,
+            "category":"chest and arm",
+            "name":"Regular push-ups",
+            "illustration":""
+        },
+
+        {
+            "id":2,
+            "category":"chest and arm",
+            "name":"Incline push-ups",
+            "illustration":""
+        },
+
+        {
+            "id":3,
+            "category":"chest and arm",
+            "name":"Decline push-ups",
+            "illustration":""
+        },
+
+        {
+            "id":4,
+            "category":"chest and arm",
+            "name":"Plyometric push-ups",
+            "illustration":""
+        },
+
+        {
+            "id":5,
+            "category":"chest and arm",
+            "name":"Spiderman Press-up",
+            "illustration":""
+        },
+
+        {
+            "id":6,
+            "category":"chest and arm",
+            "name":"Wide Press-up",
+            "illustration":""
+        },
+
+        {
+            "id":7,
+            "category":"chest and arm",
+            "name":"triceps dips",
+            "illustration":""
+        },
+
+        {
+            "id":8,
+            "category":"chest and arm",
+            "name":"diamond pushups",
+            "illustration":""
+        },
+
+        {
+            "id":9,
+            "category":"chest and arm",
+            "name":"Alternating Shuffle Press-up",
+            "illustration":""
+        },
+
+        {
+            "id":10,
+            "category":"chest and arm",
+            "name":"Kickboxing punches",
+            "illustration":""
+        },
+
+        {
+            "id":11,
+            "category":"shoulder",
+            "name":"Plank shoulder taps",
+            "illustration":""
+        },
+
+        {
+            "id":12,
+            "category":"shoulder",
+            "name":"Crab walk",
+            "illustration":"",
+            "reps":"2–3 sets of 15–20 steps"
+        },
+
+        {
+            "id":13,
+            "category":"shoulder",
+            "name":"Push-back push-up",
+            "illustration":"",
+            "reps":"3 sets of 12–15 reps"
+        },
+
+        {
+            "id":14,
+            "category":"shoulder",
+            "name":"Plank to Down Dog",
+            "illustration":"",
+            "reps":"5 sets of 20 reps"
+        },
+
+        {
+            "id":15,
+            "category":"shoulder",
+            "name":"Side plank with lateral raise ",
+            "illustration":"",
+            "reps":"3 sets of 10 reps"
+        },
+
+        {
+            "id":16,
+            "category":"back",
+            "name":"cobra pose",
+            "illustration":"",
+            "reps":"3 sets of 2mins each"
+        },
+
+        {
+            "id":17,
+            "category":"back",
+            "name":"Superman",
+            "illustration":"",
+            "reps":"3 reps with a 15-30 second static hold"
+        },
+
+        {
+            "id":18,
+            "category":"back",
+            "name":"Dolphin Kick",
+            "illustration":"",
+            "reps":"3 sets of 5 reps"
+        },
+
+        {
+            "id":19,
+            "category":"back",
+            "name":"Reverse Snow Angels",
+            "illustration":"",
+            "reps":"Repeat for 3 sets of 5 reps,"
+        },
+
+        {
+            "id":20,
+            "category":"back",
+            "name":"Dolphin Kick",
+            "illustration":"",
+            "reps":"3 sets of 5 reps"
+        },
+
+        {
+            "id":21,
+            "category":"abs",
+            "name":"Crunch",
+            "illustration":"",
+            "reps":"3 sets of 10 – 20 reps"
+        },
+
+        {
+            "id":22,
+            "category":"abs",
+            "name":"Plank",
+            "illustration":"",
+            "reps":" 3 sets of 30 seconds"
+        },
+
+        {
+            "id":23,
+            "category":"abs",
+            "name":"Mountain climbers",
+            "illustration":"",
+            "reps":"20 on each leg, for 4 sets each."
+        },
+
+        {
+            "id":24,
+            "category":"abs",
+            "name":"Bicycle crunch",
+            "illustration":"",
+            "reps":"3 sets of 30 reps"
+        },
+
+        {
+            "id":25,
+            "category":"abs",
+            "name":"Hollow Holds",
+            "illustration":"",
+            "reps":"20 seconds of 3 sets. "
+        },
+
+        {
+            "id":26,
+            "category":"legs",
+            "name":"jump squats",
+            "illustration":"",
+            "reps":"3 sets of 10 reps"
+        },
+
+        {
+            "id":27,
+            "category":"legs",
+            "name":"Hip bridges",
+            "illustration":"",
+            "reps":"3 sets of 12 reps"
+        },
+
+        {
+            "id":28,
+            "category":"legs",
+            "name":"jumping lunges",
+            "illustration":"",
+            "reps":"3 sets of 10 reps"
+        },
+
+        {
+            "id":29,
+            "category":"legs",
+            "name":"jumping lunges",
+            "illustration":"",
+            "reps":"3 sets of 10 reps"
+        },
+
+        {
+            "id":30,
+            "category":"legs",
+            "name":"step-ups",
+            "illustration":"",
+            "reps":"3 sets of 15 reps"
+        }
+    ]
+}
