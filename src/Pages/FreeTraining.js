@@ -1,6 +1,5 @@
 import React from 'react'
 import Workout from '../Components/Workout'
-import hollow from "../img/hollow.gif"
 
 const FreeTraining = () => {
   const exercise = [
@@ -270,9 +269,9 @@ const FreeTraining = () => {
   ]
 
 
-
+  
   const currentDate = new Date()
-  const dayOfWeek = currentDate.getDay("2022-12-12")
+  const dayOfWeek = currentDate.getDay()
 
   let selectedDisplay1
   let selectedDisplay2
@@ -282,26 +281,35 @@ const FreeTraining = () => {
   } else if (dayOfWeek === 2 || dayOfWeek === 5){
     selectedDisplay1 = exercise?.filter((n) => n.category === "shoulder")
     selectedDisplay2 = exercise?.filter((n) => n.category === "back")
+  
   } else if (dayOfWeek === 3 || dayOfWeek === 6){
     selectedDisplay1 = exercise?.filter((n) => n.category === "abs")
     selectedDisplay2 = exercise?.filter((n) => n.category === "legs")
   } else {
     selectedDisplay1 = exercise?.filter((n) => n.category === "rest")
     selectedDisplay2 = exercise?.filter((n) => n.category === "walk")
-  }
-  
-
-  const test = exercise?.filter((n) => n.category === "chest")
-
-  const hold = selectedDisplay1.sort(() => Math.random() - Math.random()).slice(0, 3)
-  const hold2 = selectedDisplay2.sort(() => Math.random() - Math.random()).slice(0, 3)
+  }  
 
 
-  const workoutData1 = test.map(n => {
-    return <Workout key={n.id} name = {n.name}/>
-  })
+  let hold = []
+  let hold2 = []
 
-  console.log(workoutData1)
+
+  if (localStorage.getItem('selectedDisplay1') === null) {
+
+   const localStore1 =  selectedDisplay1.sort(() => Math.random() - Math.random()).slice(0, 3)
+   const localStore2 =  selectedDisplay2.sort(() => Math.random() - Math.random()).slice(0, 3)
+
+    localStorage.setItem('selectedDisplay1', JSON.stringify(localStore1));
+    localStorage.setItem('selectedDisplay2', JSON.stringify(localStore2));
+    // get items from local storage
+  hold  = JSON.parse(localStorage.getItem('selectedDisplay1'))
+  hold2 = JSON.parse(localStorage.getItem('selectedDisplay2'))
+    }else{
+        hold = JSON.parse(localStorage.getItem('selectedDisplay1'))
+        hold2 = JSON.parse(localStorage.getItem('selectedDisplay2'))
+    }
+
 
   return (
     <div className="mx-auto w-5/6 lg:flex gap-16 lg:my-20 my-6 items-start">
@@ -314,7 +322,7 @@ const FreeTraining = () => {
       
       <div className='mt-14 lg:mt-0'>
         <div className="lg:flex md:flex flex-wrap text-black gap-10">
-            {hold && hold.map(n => {
+            {hold.length > 0 && hold.map(n => {
                 return <Workout key={n.id} {...n}/>
             })}
         </div>
