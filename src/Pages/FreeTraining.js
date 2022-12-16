@@ -93,7 +93,7 @@ const FreeTraining = () => {
                 <p className='font-bold text-5xl mt-2'>Exercises of the Day</p>
                 <p className='mt-5 italic text-gray-700'>Join us in doing these free routines for 1 hour everyday and watch how you body
                     transforms into a healthy machine</p>
-                <div className='flex justify-center'><p className="font-bold mt-5 text-orange-700 text-center w-max bg-white px-3 py-2 shadow-md rounded-lg">{dayOfWeekText}</p></div>
+                <div><p className="font-bold mt-5 text-orange-700 text-center w-max bg-white px-3 py-2 shadow-md rounded-lg">{dayOfWeekText}</p></div>
             </div>
 
             <div className='mt-14 lg:mt-0'>
