@@ -8,14 +8,12 @@ import trainer3 from "../img/panther.jpg"
 import pater from "../img/pater.png"
 import { useNavigate } from 'react-router-dom'
 
-
 const About = () => {
-
   const navigate = useNavigate()
 
   const contact = () => {
-    navigate("contact")
-    windows.scroll({top: top})
+    navigate("/contact")
+    window.scrollTo(0, 0)
   }
 
   return (

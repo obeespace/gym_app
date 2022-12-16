@@ -1,10 +1,9 @@
+import { stringify } from 'postcss'
 import React from 'react'
 import Workout from '../Components/Workout'
 
 // import exercise from json file
 import exerciseData from '../Pages/exercise.json'
-
-
 
 
 const FreeTraining = () => {
@@ -17,6 +16,25 @@ const FreeTraining = () => {
 
     let hold = []
     let hold2 = []
+
+    let dayOfWeekText
+    if (dayOfWeek === 0){
+        dayOfWeekText = "Sunday"
+    } else if (dayOfWeek === 1){
+        dayOfWeekText = "Monday"
+    } else if (dayOfWeek === 2){
+        dayOfWeekText = "Tuesday"
+    } else if (dayOfWeek === 3){
+        dayOfWeekText = "Wednesday"
+    } else if (dayOfWeek === 4){
+        dayOfWeekText = "Thursday"
+    } else if (dayOfWeek === 5){
+        dayOfWeekText = "Friday"
+    } else {
+        dayOfWeekText = "Saturday"
+    }
+
+
 
     if (dayOfWeek === 1 || dayOfWeek === 4) {
         selectedDisplay1 = exercise?.filter((n) => n.category === "chest")
@@ -75,6 +93,7 @@ const FreeTraining = () => {
                 <p className='font-bold text-5xl mt-2'>Exercises of the Day</p>
                 <p className='mt-5 italic text-gray-700'>Join us in doing these free routines for 1 hour everyday and watch how you body
                     transforms into a healthy machine</p>
+                <div className='flex justify-center'><p className="font-bold mt-5 text-orange-700 text-center w-max bg-white px-3 py-2 shadow-md rounded-lg">{dayOfWeekText}</p></div>
             </div>
 
             <div className='mt-14 lg:mt-0'>

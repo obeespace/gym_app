@@ -171,7 +171,7 @@
         "id": 24,
         "category": "abs",
         "name": "Bicycle crunch",
-        "illustration": "",
+        "illustration": "https://gifimage.net/wp-content/uploads/2018/10/bicycle-crunches-gif-2.gif",
         "reps": "3 sets of 30 reps"
     },
     {
@@ -205,8 +205,8 @@
     {
         "id": 29,
         "category": "legs",
-        "name": "jumping lunges",
-        "illustration": "",
+        "name": "Walking lunges",
+        "illustration": "https://thumbs.gfycat.com/InferiorFalseGalago-max-1mb.gif",
         "reps": "3 sets of 10 reps"
     },
     {
